@@ -20,16 +20,16 @@ export interface SocialLink {
 // Main navigation items
 export const navItems: NavItem[] = [
   { label: "Home", href: "/" },
+  { label: "Menu", href: "/menu" },
   { label: "About", href: "/about" },
-  { label: "Treatments", href: "/treatments" },
   { label: "Contact", href: "/contact" },
 ]
 
 // Footer quick links (can include booking link)
 export const quickLinks: NavItem[] = [
   { label: "Home", href: "/" },
+  { label: "Menu", href: "/menu" },
   { label: "About", href: "/about" },
-  { label: "Treatments", href: "/treatments" },
   { label: "Contact", href: "/contact" },
   // Booking link will be added dynamically from businessInfo.bookingUrl
 ]

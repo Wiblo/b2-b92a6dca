@@ -1,29 +1,26 @@
 import { HeroWithImage } from "@/components/sections/hero/HeroWithImage"
-import { FeaturedServices } from "@/components/sections/services/FeaturedServices"
+import { FeaturedMenuItems } from "@/components/sections/menu/FeaturedMenuItems"
 import { AboutSection } from "@/components/sections/about/AboutSection"
 import { FeaturesSection } from "@/components/sections/features/FeaturesSection"
 import { CTASection } from "@/components/sections/cta/CTASection"
 import { LocationSection } from "@/components/sections/location/LocationSection"
-import { FaqSection } from "@/components/sections/faq/FaqSection"
-import { businessInfo } from "@/lib/data/business-info"
 
 export default function Home() {
   return (
     <>
       <HeroWithImage
-        subtitle="Dr. Kamilah Jordaan"
-        title="Sports & Family Chiropractic Care"
-        backgroundImage="/dr-kamilah-professional-portrait.jpeg"
-        backgroundImageAlt="Dr. Kamilah Jordaan - Professional Chiropractor"
-        ctaText="Book Your Appointment"
-        ctaUrl={businessInfo.bookingUrl}
+        subtitle="Golden Crust Bakery"
+        title="Freshly Baked Goodness Every Day"
+        backgroundImage="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1600&q=80"
+        backgroundImageAlt="Fresh artisan breads at Golden Crust Bakery"
+        ctaText="View Our Menu"
+        ctaUrl="/menu"
       />
-      <FeaturedServices />
+      <FeaturedMenuItems />
       <AboutSection />
       <FeaturesSection />
       <CTASection />
       <LocationSection />
-      <FaqSection />
     </>
   )
 }

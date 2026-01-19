@@ -17,11 +17,11 @@ export interface AboutFull {
  * Brief introduction with link to full about page
  */
 export const aboutPreview: AboutPreview = {
-  title: 'About Our Practice',
+  title: 'Our Story',
   description:
-    "Dr. Kamilah Jordaan is a dedicated chiropractor committed to helping people achieve a pain-free life through non-invasive healthcare. With a Master's degree in Chiropractic from the University of Johannesburg earned with distinction, she provides holistic, patient-centered care to individuals of all ages.",
-  image: '/dr-kamilah-professional-portrait.jpeg',
-  imageAlt: 'Dr. Kamilah Jordaan professional portrait',
+    "Golden Crust Bakery has been serving Johannesburg's vibrant Maboneng community since 2018. We're passionate about traditional baking methods, using time-honored techniques and the finest local ingredients to create breads, pastries, and treats that bring joy to every bite. Every morning, our bakers arrive before dawn to ensure you enjoy the freshest, most delicious baked goods in the city.",
+  image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80',
+  imageAlt: 'Fresh artisan bread on display at Golden Crust Bakery',
 }
 
 /**
@@ -29,12 +29,12 @@ export const aboutPreview: AboutPreview = {
  * Comprehensive information about the practice
  */
 export const aboutFull: AboutFull = {
-  title: 'About Dr. Kamilah Jordaan',
+  title: 'About Golden Crust Bakery',
   paragraphs: [
-    "Dr. Kamilah Jordaan is a dedicated chiropractor committed to helping people achieve a pain-free life through non-invasive healthcare. With a Master's degree in Chiropractic from the University of Johannesburg earned with distinction, she provides holistic, patient-centered care to individuals of all ages.",
-    'Specializing in sports and family chiropractic care, Dr. Jordaan combines advanced techniques with a compassionate approach to address a wide range of conditions, from sports injuries to chronic pain management.',
-    'At Sticks and Stones Wellness Hub, every patient receives personalized attention and a customized treatment plan designed to support their unique healing journey and long-term wellness goals.',
+    "Golden Crust Bakery opened its doors in 2018 in the heart of Johannesburg's creative Maboneng Precinct. What started as a small passion project has grown into a beloved neighborhood gathering place where the aroma of fresh-baked bread welcomes everyone who walks through our doors.",
+    'We believe in doing things the right way, even if it takes longer. Our sourdough starter is over 5 years old. Our croissants are hand-laminated with real French butter. Our cakes are made from scratch, never from a mix. We source our flour from local mills and our eggs from free-range farms in Gauteng.',
+    "Whether you're grabbing a morning coffee and croissant, picking up fresh bread for dinner, or ordering a custom cake for a celebration, we're committed to making your experience special. Visit us in Maboneng and taste the difference that passion and craftsmanship make.",
   ],
-  image: '/dr-kamilah-professional-portrait.jpeg',
-  imageAlt: 'Dr. Kamilah Jordaan professional portrait',
+  image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80',
+  imageAlt: 'Artisan breads at Golden Crust Bakery',
 }
